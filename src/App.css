@@ -1,0 +1,61 @@
+.kanban-board {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  background-color: #F4F6FA;
+  width: 100vw;
+  top: 60px;
+}
+
+.kanban-column {
+  min-width: 360px;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.HeaderStatus {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.HeaderStatus img {
+  height: 15px;
+  width: auto;
+}
+
+.HeaderStatus h5 {
+  font-size: 15px;
+  margin: 0;
+  font-weight: bold;
+  width: 100%;
+}
+
+.HeaderButton {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.HeaderButton img {
+  height: 15px;
+  width: auto;
+  cursor: pointer;
+}
+
+.ticket-card {
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.default-icon {
+  width: 30px;
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 50%;
+}

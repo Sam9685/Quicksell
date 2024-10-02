@@ -1,0 +1,119 @@
+.ticket-card {
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  height: 125px;
+  margin: 10px;
+  max-width: 360px;
+  font-family: 'Arial', sans-serif;
+  transition: box-shadow 0.3s ease;
+  position: relative;
+}
+
+.ticket-card:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.ticket-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2px;
+}
+
+.ticket-id {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #5c5c5c;
+  font-stretch: expanded;
+}
+
+.user-profile {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+}
+
+.user-profile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.default-user-icon {
+  width: 100%;
+  height: 100%;
+  background-color: #ddd;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.ticket-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.ticket-tag {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  position: absolute;
+  bottom: 10px;
+  left: 33px;
+}
+
+.ticket-tag img {
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.Dummy {
+  color: white;
+}
+
+.tag-icon {
+  padding: 2px;
+  width: 18px;
+  height: 18px;
+  color: #fff;
+  border-radius: 4px;
+  border: 1px solid #f8f8f8;
+  margin-right: 5px;
+}
+
+.tag-label {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  padding: 5px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #6E7072;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.bullet {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #BEC4C9;
+}
+
+.ordered-tickets {
+  margin-top: 20px;
+}
+
+.card-count {
+  margin: 0px;
+}

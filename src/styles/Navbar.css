@@ -1,0 +1,79 @@
+.navbar {
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: white;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+}
+
+.display-options-container {
+  margin: 8px;
+}
+
+.display-btn {
+  background-color: rgb(252, 252, 252);
+  border: 1px solid #eeeeee;
+  padding: 2px 5px;
+  margin: 0px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filter-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.down-arrow {
+  width: 25px;
+  height: 25px;
+  margin-left: 8px;
+}
+
+.overlay-panel {
+  position: absolute;
+  top: 60px;
+  left: 22px;
+  background-color: #F6F8FA;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 100;
+  width: 230px;
+  border-radius: 4px;
+}
+
+.dropdown-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 2px 15px;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdown label {
+  color: #727171;
+  font-size: 14px;
+}
+
+.dropdown select {
+  width: 100px;
+  padding: 2px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

@@ -1,0 +1,45 @@
+```
+QuicKsell_assignment
+├─ .gitignore
+├─ package-lock.json
+├─ package.json
+├─ public
+│  ├─ favicon.ico
+│  ├─ index.html
+│  ├─ logo192.png
+│  ├─ logo512.png
+│  ├─ manifest.json
+│  └─ robots.txt
+├─ readme.md
+└─ src
+   ├─ App.css
+   ├─ App.js
+   ├─ assets
+   │  ├─ 3 dot menu.svg
+   │  ├─ add.svg
+   │  ├─ Backlog.svg
+   │  ├─ Cancelled.svg
+   │  ├─ Display.svg
+   │  ├─ Done.svg
+   │  ├─ down.svg
+   │  ├─ Img - High Priority.svg
+   │  ├─ Img - Low Priority.svg
+   │  ├─ Img - Medium Priority.svg
+   │  ├─ in-progress.svg
+   │  ├─ No-priority.svg
+   │  ├─ SVG - Urgent Priority colour.svg
+   │  ├─ SVG - Urgent Priority grey.svg
+   │  └─ To-do.svg
+   ├─ components
+   │  ├─ Cards.js
+   │  ├─ KanbanBoard.js
+   │  └─ Navbar.js
+   ├─ index.css
+   ├─ index.js
+   ├─ styles
+   │  ├─ card.css
+   │  └─ Navbar.css
+   └─ utils
+      └─ api.js
+
+```
