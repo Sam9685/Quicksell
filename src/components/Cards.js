@@ -10,13 +10,13 @@ import Backlog from "../assets/Backlog.svg";
 const TicketCard = ({ ticket, users, groupBy }) => {
   const user = users.find(user => user.id === ticket.userId) || {};
   
-  const priorityLabels = {
-    4: 'Urgent',
-    3: 'High',
-    2: 'Medium',
-    1: 'Low',
-    0: 'No priority',
-  };
+  // const priorityLabels = {
+  //   4: 'Urgent',
+  //   3: 'High',
+  //   2: 'Medium',
+  //   1: 'Low',
+  //   0: 'No priority',
+  // };
 
   const StatusSvgs = {
     "Todo": Todo,
